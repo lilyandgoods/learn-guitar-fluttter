@@ -1,0 +1,5 @@
+[
+  {"code": "FIRST_SESSION", "name": "First Session", "description": "Complete your first practice.", "icon": "🏁", "threshold": 1},
+  {"code": "WEEK_7", "name": "One-Week Streak", "description": "Practice 7 days in a row.", "icon": "🔥", "threshold": 7},
+  {"code": "MINUTES_100", "name": "100 Minutes", "description": "Reach 100 practice minutes.", "icon": "⏱", "threshold": 100}
+]

@@ -1,0 +1,3 @@
+<!-- Add to iOS Info.plist in FlutterFlow Settings -->
+<key>NSMicrophoneUsageDescription</key>
+<string>This app uses the microphone for guitar tuning.</string>

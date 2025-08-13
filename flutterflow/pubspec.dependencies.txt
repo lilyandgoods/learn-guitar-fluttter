@@ -1,0 +1,3 @@
+# Copy under dependencies: in FlutterFlow > Custom Code > Pubspec
+flutter_audio_capture: ^1.0.0
+pitch_detector_dart: ^0.4.0

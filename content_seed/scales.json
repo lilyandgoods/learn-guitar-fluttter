@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Minor Pentatonic",
+    "key": "A",
+    "positions": [
+      {"position": 1, "highlightedFrets": {"0": [0,3,5], "1": [0,2,5]}}
+    ],
+    "audioUrl": ""
+  }
+]

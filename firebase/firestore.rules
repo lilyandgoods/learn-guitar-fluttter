@@ -1,0 +1,35 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() { return request.auth != null; }
+    function isOwner(uid) { return isSignedIn() && request.auth.uid == uid; }
+
+    match /users/{uid} {
+      allow read: if isOwner(uid);
+      allow write: if isOwner(uid);
+    }
+
+    match /practice_sessions/{id} {
+      allow create, read: if isSignedIn();
+      allow update, delete: if request.resource.data.userId == request.auth.uid;
+    }
+
+    match /{colName=lessons|lesson_steps|chords|scales|songs|achievements}/{doc} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /user_achievements/{doc} {
+      allow create, read: if isSignedIn();
+      allow update, delete: if request.resource.data.userId == request.auth.uid;
+    }
+
+    match /app_content/{doc} {
+      allow read: if true;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

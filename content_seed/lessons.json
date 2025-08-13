@@ -1,0 +1,24 @@
+[
+  {
+    "id": "L1",
+    "title": "Posture & Basics",
+    "difficulty": "Beginner",
+    "pathId": "beginner",
+    "videoUrl": "https://example.com/lesson1.mp4",
+    "coverImage": "https://example.com/cover1.jpg",
+    "durationMin": 6,
+    "order": 1,
+    "tags": ["posture", "basics"]
+  },
+  {
+    "id": "L2",
+    "title": "First Chords: E, A",
+    "difficulty": "Beginner",
+    "pathId": "beginner",
+    "videoUrl": "https://example.com/lesson2.mp4",
+    "coverImage": "https://example.com/cover2.jpg",
+    "durationMin": 8,
+    "order": 2,
+    "tags": ["chords"]
+  }
+]

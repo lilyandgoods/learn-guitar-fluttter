@@ -1,0 +1,5 @@
+[
+  {"id":"S1","lessonId":"L1","title":"Posture","type":"video","content":"Watch and follow","backingTrackUrl":"","tabJson":{}},
+  {"id":"S2","lessonId":"L1","title":"Fretting intro","type":"drill","content":"Index-middle-ring on 1-2-3","backingTrackUrl":"","tabJson":{}},
+  {"id":"S3","lessonId":"L2","title":"Chord shapes E and A","type":"video","content":"Learn shapes","backingTrackUrl":"","tabJson":{}}
+]
