@@ -1,0 +1,16 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Node/CLI junk
+node_modules/
+
+# Flutter/Android/iOS build (if later added)
+.build/
+.dart_tool/
+.packages
+pubspec.lock
+ios/Pods/
+android/.gradle/
+android/local.properties

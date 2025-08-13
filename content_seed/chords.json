@@ -1,0 +1,29 @@
+[
+  {
+    "name": "C",
+    "variations": [
+      {"frets": [-1,3,2,0,1,0], "fingers": [0,3,2,0,1,0]}
+    ],
+    "audioUrl": "",
+    "difficulty": "Beginner",
+    "tags": ["open"]
+  },
+  {
+    "name": "G",
+    "variations": [
+      {"frets": [3,2,0,0,0,3], "fingers": [2,1,0,0,0,3]}
+    ],
+    "audioUrl": "",
+    "difficulty": "Beginner",
+    "tags": ["open"]
+  },
+  {
+    "name": "Em",
+    "variations": [
+      {"frets": [0,2,2,0,0,0], "fingers": [0,2,3,0,0,0]}
+    ],
+    "audioUrl": "",
+    "difficulty": "Beginner",
+    "tags": ["open"]
+  }
+]
